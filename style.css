@@ -1,3 +1,40 @@
+a:visited {
+    color: green;
+}
+
 body {
-  background: blue;
+  background: ;
+}
+
+form {
+  background-image: url("d1.jpg");
+  padding: 30px;
+  border: 3px solid black;
+
+}
+
+.image1{
+  border: 10px solid yellow;
+  margin: 20px;
+}
+
+.footer{
+  text-align: center;
+}
+
+#label{
+  font-family: "Comic Sans MS";
+}
+
+.feedback {
+  font: .4em blue;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    background-color: gray;
+  };
+  #img {
+    width: 150px;
+  }
 }
